@@ -1,0 +1,9 @@
+<Project>
+	<PropertyGroup>
+		<ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<GlobalPackageReference Include="CSharpier.MSBuild" Version="0.25.0" />
+	</ItemGroup>
+</Project>

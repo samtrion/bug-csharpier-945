@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{50EF332D-D365-4D47-BB8F-2E833B6CFDD4}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		Directory.Packages.props = Directory.Packages.props
+		LICENSE = LICENSE
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{CBDC9408-DB91-4107-BA0A-1C4F87F17047}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Test.Shared", "src\Test.Shared\Test.Shared.shproj", "{5684EDD8-2393-452F-96DF-078AD705513C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "src\Test\Test.csproj", "{CF350B47-94B6-4D17-9D4A-93D179B4FE4C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CF350B47-94B6-4D17-9D4A-93D179B4FE4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF350B47-94B6-4D17-9D4A-93D179B4FE4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF350B47-94B6-4D17-9D4A-93D179B4FE4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF350B47-94B6-4D17-9D4A-93D179B4FE4C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5684EDD8-2393-452F-96DF-078AD705513C} = {CBDC9408-DB91-4107-BA0A-1C4F87F17047}
+		{CF350B47-94B6-4D17-9D4A-93D179B4FE4C} = {CBDC9408-DB91-4107-BA0A-1C4F87F17047}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5993D767-DE0B-4AFA-ABE5-1794DB5684DC}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		src\Test.Shared\Test.Shared.projitems*{5684edd8-2393-452f-96df-078ad705513c}*SharedItemsImports = 13
+		src\Test.Shared\Test.Shared.projitems*{cf350b47-94b6-4d17-9d4a-93d179b4fe4c}*SharedItemsImports = 5
+	EndGlobalSection
+EndGlobal
